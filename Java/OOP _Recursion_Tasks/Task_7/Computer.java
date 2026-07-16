@@ -1,4 +1,4 @@
-package Task7;
+package Task_7;
 
 public class Computer {
     public static class Processor {
