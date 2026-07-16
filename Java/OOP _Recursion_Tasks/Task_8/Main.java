@@ -17,7 +17,6 @@ public class Main {
             double roomArea = input.nextDouble();
             arrayRoomArea[i]= roomArea;
         }
-        
         for (int i=0;i<numb;i++){
             House house = new House();
             House.Room room = house.new Room();
