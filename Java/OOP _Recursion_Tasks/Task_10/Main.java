@@ -1,5 +1,10 @@
-package Task10;
+package Task_10;
 
-public interface Printer {
-    void print();
+public class Main {
+    Printer printer = new Printer() {
+        @Override
+        public void print() {
+            System.out.println("Hello Java");
+        }
+    };
 }
