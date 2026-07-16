@@ -1,4 +1,4 @@
-package Task6.Zoo;
+package Task_6.Zoo;
 
 import Task6.Animals.Animal;
 
