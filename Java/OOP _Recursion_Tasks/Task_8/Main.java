@@ -7,8 +7,8 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number of rooms");
         int numb = input.nextInt();
-        String [] arrayRoomName = String[numb];
-        Double [] arrayRoomArea = Double[numb];
+        String [] arrayRoomName = new String[numb];
+        Double [] arrayRoomArea = new Double[numb];
         for (int i=0;i<numb;i++){
             System.out.println("Enter the Room's Name");
             String roomName = input.next();
@@ -17,6 +17,7 @@ public class Main {
             double roomArea = input.nextDouble();
             arrayRoomArea[i]= roomArea;
         }
+        
         for (int i=0;i<numb;i++){
             House house = new House();
             House.Room room = house.new Room();
