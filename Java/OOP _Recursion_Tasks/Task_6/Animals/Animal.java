@@ -1,4 +1,4 @@
-package Task6.Animals;
+package Task_6.Animals;
 
 public class Animal {
     public void publicMethod() {
