@@ -6,10 +6,14 @@ public class StudentService {
     public void addstudent(Student student) {
         System.out.println(student.getId());
         System.out.println(student.getName());
-        System.out.println(student.getAge() + "Added");
+        System.out.println(student.getAge());
     }
 
     public void printStudents(Student student) {
-        System.out.println("Student: " + student.getId() + student.getName() + student.getAge());
+        System.out.println("Student's Info");
+        System.out.println("Student: ");
+        System.out.println("Student's Id: " + student.getId());
+        System.out.println("Student's Name: "+ student.getName());
+        System.out.println("Student's Age: " + student.getAge());
     }
 }
