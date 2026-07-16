@@ -1,4 +1,4 @@
-package Task1;
+package Task_1;
 
 public class Student {
     private String name;
