@@ -1,0 +1,36 @@
+package Task_2;
+
+public class Payment {
+    private Double amount;
+    private PaymentType paymentType;
+
+    public Double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
+
+    public PaymentType getPaymentType() {
+        return paymentType;
+    }
+
+    public void setPaymentType(PaymentType paymentType) {
+        this.paymentType = paymentType;
+    }
+
+    public void processPayment(){
+        switch (paymentType){
+            case CASH:
+                System.out.println("CASH payment");
+                break;
+            case CARD:
+                System.out.println("CASH payment");
+                break;
+            case TRANSFER:
+                System.out.println("TRANSFER");
+                break;
+        }
+    }
+}
